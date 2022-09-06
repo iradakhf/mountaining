@@ -23,21 +23,26 @@
             }
         }
         .general_phone{
+            overflow: hidden;
             display: block !important;
+            .menu{
+                padding-left: 2rem;
+            }
             .images{
                 img{
                     width: 100%;
                 }
-               padding-right: -10rem;
             }
         }
     }
 
   main{
     #first{
+        
       .bg1{
           h1{
-        font-size: 10px !important;
+            padding: 10rem 0rem 0rem 8.2rem;
+        font-size: 30px !important;
 
        }
         .img-mob{
@@ -45,8 +50,37 @@
             height: 375px;
             width: 400px;
             max-height: 375px;
+            img{
+                width: 80%;
+                padding-left: 8rem;
+            }
+            .btnGetRoam{
+                margin-left: 9rem;
+                a{
+                    padding: .5rem 2rem;
+                }
+            }
         }
       }
     }
+    #second{
+
+        .pink{
+            padding-bottom: 2rem;
+        }
+        .white{
+            padding-bottom: 2rem;
+        }
+    }
+    #sixth{
+        overflow: hidden;
+    }
+    #seventh{
+        .text{
+            padding-left: 13rem;
+        }
+    }
+
   }
+ 
 }
