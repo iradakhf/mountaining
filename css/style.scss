@@ -1,0 +1,112 @@
+@import '_media.scss';
+@import '_reset.scss';
+@import '_responsive.scss';
+@import '_animation.scss';
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+
+$primary_color: #303030;
+$secondary_color: #367e62;
+$primary_font: 'Montserrat', sans-serif;
+
+
+@mixin common_btn($size, $bgcolor) {
+    background-color: $bgcolor;
+    border-radius: 5px;
+    text-align: center;
+   a{
+    color: white;
+    font-weight: 500;
+    font-size: $size;
+   }
+}
+header{
+   .general{
+
+    padding:  0rem 2rem;
+    background-color: #303030;
+       span{
+        font-size: 12px;
+        color: white;
+        font-weight: 700;
+         font-family: $primary_font;
+       }
+       i{
+        font-size: 12px;
+        color: white;
+        padding-right: 1rem;
+       }
+       input{
+        font-size: 12px;
+        color: white;
+        font-weight: 700;
+         font-family: $primary_font;
+       }
+       a{
+        font-size: 12px;
+        color: white;
+         font-family: $primary_font;
+         padding-right: 1rem;
+       }
+       .second{
+        text-align: end;
+        a{
+        display: inline;
+
+        }
+       }
+
+   }
+   .nb{
+   background-color: white;
+      padding:  2rem 0rem 2rem 2rem;
+      position: fixed;
+      z-index: 4;
+      width: 100%;
+      ul{
+        display: flex;
+      }
+      img{
+         width: 100%;
+      }
+      .second{
+         ul{
+            justify-content: flex-end;
+            li{
+               padding-right: 2rem;
+               font-family: $primary_font;
+               a{
+                  color: #303030;
+               }
+            }
+            margin-right: -2.5rem;
+         }
+      }
+   }
+}
+
+#first{
+   .text{
+   padding: 20rem 0rem;
+
+   }
+   .bg1{
+      background-image: url(../images/home-4-slider-image-2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+           
+      h1{
+   text-align: center;
+   color: white;
+   font-size: 100px;
+   font-style: italic; 
+      }
+   }
+   .bg2{
+      background-image: url(../images/home-4-slider-image-3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+   }
+}

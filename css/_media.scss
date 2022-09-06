@@ -1,0 +1,52 @@
+@media(max-width:576px){
+    header{
+        nav{
+            display: none;
+        }
+        .general{
+            .first{
+                display: none;
+            }
+            .menu{
+                display: block;
+                font: 52x;
+            }
+            .second{
+                    display: none;
+            }
+            .images{
+                img{
+                    width: 100% !important;
+                    text-align: start;
+                }
+                display: inline;
+            }
+        }
+        .general_phone{
+            display: block !important;
+            .images{
+                img{
+                    width: 100%;
+                }
+               padding-right: -10rem;
+            }
+        }
+    }
+
+  main{
+    #first{
+      .bg1{
+          h1{
+        font-size: 10px !important;
+
+       }
+        .img-mob{
+            padding: 0 !important;
+            height: 375px;
+            width: 400px;
+            max-height: 375px;
+        }
+      }
+    }
+  }
+}
